@@ -11,7 +11,7 @@ public class Demo {
 		double d = 3.2;
 		
 		// Objects
-		String name = "Susan";
+		String name = "Kimberley";
 		// System.out.println(name);
 		
 		String upper = name.toUpperCase();
