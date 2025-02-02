@@ -1,7 +1,8 @@
+import java.util.Scanner; // imports object "Scanner", which is a user input
+
 public class Demo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		//System.out.println("Hello World!");
 		
 		// Primitive (pre-defined) data types
@@ -26,8 +27,15 @@ public class Demo {
 		// Use method defined in another class-file ("Animal.java")
 		Animal e = new Animal();
 		String dog = e.iAmDog();
-		System.out.println(dog);
-		e.doStuff();
+		//System.out.println(dog);
+		//e.doStuff();
+		
+		// Run method "sinus" from Java-Class "Calculator.java"
+		// Static method
+		//Calculator.sinus();
+		//System.out.println(Calculator.degarcsin(0.71));
+		//System.out.println(Calculator.radarcsin(0.71));
+		Chatgpt.sinusgpt();
 		
 	}
 	

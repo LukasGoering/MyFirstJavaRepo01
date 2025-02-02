@@ -6,27 +6,29 @@ public class Animal {
 
 	public static void doStuff() {
 		
-		int a = 1;
+		int z = 1;
 		
 		// if-statements
 		
-		if(a == 0) {
+		if (z == 0) {
 			System.out.println("a is zero.");
-		} else if(a == 1) {
+		} else if (z == 1) {
 			System.out.println("a is one.");
 		} else {
 			System.out.println("a is neither zero or one");
 		}
 		
 		// for-loop (i++ increases each time by 1)
-		for(int i = 0; i<3; i++) {
+		for (int i = 0; i<3; i++) {
 			System.out.println(i);
 		}
 		
 		// while-loop
-		while(a < 10) {
-			System.out.println(a);
-			a++;
+		while (z < 10) {
+			System.out.println(z);
+			z++;
+			
+			
 		}
 		
 		// try and catch
